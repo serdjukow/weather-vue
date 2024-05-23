@@ -60,7 +60,7 @@ export default {
       <div class="app">
         <header class="app__header">
           <h1>Weather</h1>
-          <p>Get weather in {{ city == "" ? "youre city" : cityName }}</p>
+          <p>Get weather in {{ city == "" ? "your city" : cityName }}</p>
         </header>
         <div class="app__body">
           <input
@@ -103,7 +103,6 @@ export default {
         </div>
       </div>
     </main>
-    <footer class="footer">footer</footer>
   </div>
 </template>
 
